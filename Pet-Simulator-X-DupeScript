@@ -1,0 +1,117 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local PessimistHub = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local DupeGems = Instance.new("TextLabel")
+local TextLabel = Instance.new("TextLabel")
+local ImageButton = Instance.new("ImageButton")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local PETDUPE = Instance.new("TextLabel")
+local ImageButton_2 = Instance.new("ImageButton") 
+
+--Properties: 
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+Frame.Position = UDim2.new(0.387775093, 0, 0.136199951, 0)
+Frame.Size = UDim2.new(0, 283, 0, 173)
+Frame.Active = true Frame.Draggable = true 
+
+PessimistHub.Name = "Pessimist Hub"
+PessimistHub.Parent = Frame
+PessimistHub.BackgroundColor3 = Color3.fromRGB(94, 94, 94)
+PessimistHub.Size = UDim2.new(0, 281, 0, 38)
+PessimistHub.Font = Enum.Font.SourceSans
+PessimistHub.Text = "Pessimist Hub"
+PessimistHub.TextColor3 = Color3.fromRGB(162, 75, 216)
+PessimistHub.TextScaled = true PessimistHub.TextSize = 14.000
+PessimistHub.TextWrapped = true 
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 186, 90)
+TextButton.Position = UDim2.new(0.831719816, 0, 0.285039991, 0)
+TextButton.Size = UDim2.new(0, 39, 0, 33)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.MouseButton1Down:connect(function() 
+
+loadstring(game:HttpGet("https://pastebin.com/raw/qJ4QdSn1"))()
+end) 
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = TextButton 
+
+DupeGems.Name = "DupeGems"
+DupeGems.Parent = Frame
+DupeGems.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DupeGems.BackgroundTransparency = 1.000
+DupeGems.Position = UDim2.new(0, 0, 0.237975284, 0)
+DupeGems.Size = UDim2.new(0, 227, 0, 51)
+DupeGems.Font = Enum.Font.SourceSans
+DupeGems.Text = "DUPE GEMS"
+DupeGems.TextColor3 = Color3.fromRGB(255, 191, 64)
+DupeGems.TextSize = 40.000
+DupeGems.TextWrapped = true 
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.35689044, 0, 0.71676302, 0)
+TextLabel.Size = UDim2.new(0, 221, 0, 72)
+TextLabel.Font = Enum.Font.SourceSansItalic
+TextLabel.Text = "Script made by H3llix#5837"
+TextLabel.TextColor3 = Color3.fromRGB(28, 64, 195)
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true 
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BackgroundTransparency = 0.900
+ImageButton.Position = UDim2.new(0, 0, 0.285491228, 0)
+ImageButton.Size = UDim2.new(0, 236, 0, 32)
+ImageButton.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+ImageButton.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.ImageTransparency = 1.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(31, 23, 255)
+TextButton_2.Position = UDim2.new(0.836140037, 0, 0.623299897, 0)
+TextButton_2.Size = UDim2.new(0, 38, 0, 33)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+TextButton_2.MouseButton1Down:connect(function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/vvFtEzxe"))()
+end) 
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = TextButton_2
+
+PETDUPE.Name = "PET DUPE"
+PETDUPE.Parent = Frame
+PETDUPE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PETDUPE.BackgroundTransparency = 1.000
+PETDUPE.Position = UDim2.new(-0.0515612066, 0, 0.634826958, 0)
+PETDUPE.Size = UDim2.new(0, 219, 0, 32)
+PETDUPE.Font = Enum.Font.SourceSans
+PETDUPE.Text = "PET DUPE"
+PETDUPE.TextColor3 = Color3.fromRGB(62, 37, 248)
+PETDUPE.TextSize = 37.000
+
+ImageButton_2.Parent = Frame
+ImageButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_2.BackgroundTransparency = 0.900
+ImageButton_2.Position = UDim2.new(-0.00353356893, 0, 0.632312059, 0)
+ImageButton_2.Size = UDim2.new(0, 238, 0, 32)
+ImageButton_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+ImageButton_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton_2.ImageTransparency = 1.000
